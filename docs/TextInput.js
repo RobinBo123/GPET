@@ -1,8 +1,8 @@
 import React from "react";
-import helpicon from "./help.png"
-import "./ToolTip.css"
-import "./TextInput.css"
-import {get_tooltip_text} from "./ToolTipText";
+import helpicon from "./docs/help.png"
+import "./docs/ToolTip.css"
+import "./docs/TextInput.css"
+import {get_tooltip_text} from "./docs/ToolTipText";
 
 
 class TextInput extends React.Component{
