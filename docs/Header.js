@@ -1,5 +1,5 @@
-import icon from "./IEEM.jpg"
-import "./Header.css"
+import icon from "./docs/IEEM.jpg"
+import "./docs/Header.css"
 import React from "react";
 
 class Header extends React.Component{
