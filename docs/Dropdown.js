@@ -1,8 +1,8 @@
 import React from "react";
-import helpicon from "./help.png"
-import "./Dropdown.css"
-import "./ToolTip.css"
-import {get_tooltip_text} from "./ToolTipText";
+import helpicon from "./docs/help.png"
+import "./docs/Dropdown.css"
+import "./docs/ToolTip.css"
+import {get_tooltip_text} from "./docs/ToolTipText";
 
 
 class Dropdown extends React.Component{
