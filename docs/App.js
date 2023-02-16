@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "./Header";
-import GracePeriodCalculation from "./GracePeriodCalculation";
-import GracePeriodVisualization from "./GracePeriodVisualization";
-import"./App.css"
+import Header from "./docs/Header";
+import GracePeriodCalculation from "./docs/GracePeriodCalculation";
+import GracePeriodVisualization from "./docs/GracePeriodVisualization";
+import"./docs/App.css"
 
 
 
