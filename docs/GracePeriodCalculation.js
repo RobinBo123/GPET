@@ -1,11 +1,11 @@
 import React from "react";
-import Dropdown from "./Dropdown";
-import TextInput from "./TextInput";
-import {calculate_PCF, calculate_TCF, calculate_grace_period, calculate_gp_time} from './functions'
-import {get_explanation_text} from "./ExplanationTexts"
+import Dropdown from "./docs/Dropdown";
+import TextInput from "./docs/TextInput";
+import {calculate_PCF, calculate_TCF, calculate_grace_period, calculate_gp_time} from './docs/functions'
+import {get_explanation_text} from "./docs/ExplanationTexts"
 
-import "./Button.css"
-import "./GracePeriodCalculation.css"
+import "./docs/Button.css"
+import "./docs/GracePeriodCalculation.css"
 
 class GracePeriodCalculation extends React.Component{
     constructor(props){
