@@ -1,11 +1,11 @@
 import React from "react";
 import Plot from 'react-plotly.js';
-import { get_gp_values_to_plot, calc_prob_value_list, calc_prob_value } from './functions'
+import { get_gp_values_to_plot, calc_prob_value_list, calc_prob_value } from './docs/functions'
 import "./GracePeriodVisualization.css"
-import helpicon from "./help.png"
-import "./ToolTip.css"
-import { get_tooltip_text } from "./ToolTipText";
-import {get_explanation_text} from "./ExplanationTexts"
+import helpicon from "./docs/help.png"
+import "./docs/ToolTip.css"
+import { get_tooltip_text } from "./docs/ToolTipText";
+import {get_explanation_text} from "./docs/ExplanationTexts"
 
 class GracePeriodVisualization extends React.Component {
     constructor(props) {
